@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
 .banner {
-    background: url('../img/adriano.png');
+    background: url('../img/adriano.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -14,32 +16,26 @@
 
 }
 
-@media (max-width: 576px) {
-    .banner {
-        background-position: center;
-        height: 100vh;
-    }
+.myName {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 3rem;
+    font-weight: 300;
+    text-align: center;
+    color: rgb(63, 89, 236);
+}
 
-    .perfil {
-        border-radius: 50%;
-        width: 100%;
-        height: 100%;
-        border: #fff solid 0.5rem;
-
-    }
-
-    .myName {
-        font-family: 'Dosis', sans-serif;
-        font-size: 2.5rem;
-        font-weight: 300;
-        text-align: center;
-    }
+.habilidade{
+    font-family: 'Poppins', sans-serif;
+    font-size: 2.5rem;
+    font-weight: 200;
+    text-align: center;
+    color: black;
 }
 
 @media (max-width: 576px) {
     .banner {
         background-position: center;
-        height: 100vh;
+        height: 100%;
     }
 
     .perfil {
@@ -49,11 +45,36 @@
         border: #fff solid 0.5rem;
 
     }
+
     .myName {
-        font-family: 'Dosis', sans-serif;
-        font-size: 2.5rem;
+        font-family: 'Bebas Neue', sans-serif;
+        font-size: 3rem;
         font-weight: 300;
         text-align: center;
+        color: rgb(63, 89, 236);
+    }
+}
+
+@media (max-width: 576px) {
+    .banner {
+        background-position: center;
+        height: 100%;
+    }
+
+    .perfil {
+        border-radius: 50%;
+        width: 100%;
+        height: 45vh;
+        border: #fff solid 0.5rem;
+
+    }
+
+    .myName {
+        font-family: 'Bebas Neue', sans-serif;
+        font-size: 3rem;
+        font-weight: 300;
+        text-align: center;
+        color: rgb(63, 89, 236);
     }
 
 }
@@ -61,21 +82,23 @@
 @media (max-width: 577px) and (max-width: 1200px) {
     .banner {
         background-position: center;
-        height: 100vh;
+        height: 100%;
     }
 
     .perfil {
         border-radius: 50%;
-        width: 45vh;
-        height: 100%;
+        width: 100%;
+        height: 45vh;
         border: #fff solid 0.5rem;
 
     }
 
+    .myName {
+        font-family: 'Bebas Neue', sans-serif;
+        font-size: 3rem;
+        font-weight: 300;
+        text-align: center;
+        color:  rgb(63, 89, 236);
+    }
+
 }
-
-@media (max-width: 992px) {}
-
-@media (max-width: 1200px) {}
-
-@media (max-width: 1400px) {}
